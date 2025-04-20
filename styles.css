@@ -1,0 +1,70 @@
+/* Importar la fuente Inter desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Inter', sans-serif; /* Usar la fuente Inter */
+    background-image: url('https://cdn.discordapp.com/attachments/1311242433865973771/1363481674117025792/Slide_16_9_-_3.png?ex=680630c3&is=6804df43&hm=a427aefb824849d69e9f91b516e60cd86fbb5a1105a30b1a66bdaa3c45ff488d&'); /* Ruta a la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la página */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Mantiene la imagen fija al desplazarse */
+    color: #fff; /* Color de texto blanco para mejor contraste */
+    margin: 0; /* Eliminar margen */
+    padding: 0; /* Eliminar padding */
+    display: flex; /* Usar flexbox para centrar */
+    flex-direction: column; /* Colocar elementos en columna */
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    height: 100vh; /* Tomar toda la altura de la ventana */
+    overflow: hidden; /* Evitar scroll */
+}
+
+/* Estilo del cuadro que contiene el contenido */
+.container {
+    background-color: rgba(0, 0, 0, 0.356); /* Fondo blanco con 50% de opacidad */
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Borde blanco con 50% de opacidad */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto dentro del cuadro */
+    backdrop-filter: blur(10px); /* Aplicar efecto de desenfoque al fondo */
+}
+
+/* Estilo del título principal */
+h1 {
+    color: #ffffff; /* Color blanco */
+}
+
+/* Estilo de los párrafos */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+/* Estilo de la imagen */
+img {
+    display: block;
+    margin: 0 auto; /* Centrar la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo de los botones */
+.button {
+    font-family: 'Inter', sans-serif; /* Usar la fuente Inter en los botones */
+    background-color: rgba(76, 175, 80, 0.3); /* Color verde con 30% de opacidad (translúcido) */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo para el hover de los botones */
+.button:hover {
+    background-color: rgba(69, 160, 73, 0.3); /* Color verde más oscuro con 30% de opacidad al pasar el ratón */
+}
