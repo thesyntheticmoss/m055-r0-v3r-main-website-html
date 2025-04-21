@@ -4,7 +4,7 @@
 /* Estilo general del cuerpo */
 body {
     font-family: 'Inter', sans-serif; /* Usar la fuente Inter */
-    background-image: url('https://github.com/AxuToaster/html-starter/blob/main/Slide%2016_9%20-%203.png?raw=true'); /* Ruta a la imagen de fondo */
+    background-image: url('https://cdn.discordapp.com/attachments/1311242433865973771/1363481674117025792/Slide_16_9_-_3.png?ex=68078243&is=680630c3&hm=a0c3a1a0d584ae2b39378586d25e3168d1deab70584511dc2f4618a6c38a5b27&'); /* Ruta a la imagen de fondo */
     background-size: cover; /* Ajusta la imagen para cubrir toda la página */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-attachment: fixed; /* Mantiene la imagen fija al desplazarse */
